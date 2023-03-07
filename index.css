@@ -1,0 +1,26 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: navajowhite;
+}
+
+/* .mainside{
+  width: 1000px;
+} */
+
+.leftside h1{
+ font-family: sans-serif;
+ font-size: 42px;
+ color: black;
+ margin-left: 100px;
+}
+
+.leftside h3{
+  font-family: sans-serif;
+  margin: 130px 60px 30px 100px;
+  font-size: 40px;
+}
