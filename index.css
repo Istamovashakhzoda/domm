@@ -21,3 +21,18 @@ body{
   font-size: 40px;
   text-align: center;
 }
+
+
+.rightside input{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 120px; */
+}
+.rightside1{
+  text-align: center;
+}
+.rightside{
+  text-align: center;
+  /* display: flex; */
+}
