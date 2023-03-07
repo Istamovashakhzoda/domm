@@ -1,8 +1,29 @@
 "use script"
+const getRandomNumber = (min,max) =>{
+  return Math.random(Math.floor( max-min +1))+min
+}
+
 
 const btn = () =>{
-  const placeholderr = document. querySelector("#placeholder")
-  placeholderr.textContent= 77;
+
+  const minn = document.getElementById("min");
+  const maxx = document.getElementById("max");
+
+  const min = Number(minn.value);
+  const max = Number(maxx.value);
+
+  if( minn.value === ``  || maxx.value === `` ){
+    alert("Please enter min and max numbers")
+    return;
+  }
+
+  if(min > max){
+    alert("Min Number Should Small From The Max")
+    return;
+  }
+
+  const placeholderr = document. querySelector("#placeholder");
+  placeholderr. textContent = getRandomNumber( min , max );
   console.log(placeholderr);
 }
 
