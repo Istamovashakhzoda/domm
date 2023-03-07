@@ -43,15 +43,21 @@ body{
 }
 .rightside{
   text-align: center;
-  /* display: flex; */
 }
 
 .btn{
-  padding: 10px 10px;
+  padding: 15px 250px;
+  margin: 30px 0 0 350px;
 }
 
  button{
-  padding: 5px 29px;
-  /* background-color: blue;
-  border: 1px solid blue; */
+  background-color:lawngreen;
+  border: 1px solid lawngreen;
+  font-size: 25px;
+  color: black;
+  border-radius: 5px;
+}
+
+#placeholder h1{
+  margin: 100px 0 0 50px;
 }
